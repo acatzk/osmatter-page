@@ -17,10 +17,10 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        sans: ["-apple-system", ...defaultTheme.fontFamily.sans],
+        sans: ["Inter", ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        'blue-logo': '#0078D7'
+        'blue-logo': '#00ADEF'
       }
     },
   },

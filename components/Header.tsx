@@ -9,7 +9,7 @@ const Header: React.FC = () => {
       <div className="mx-auto w-full md:max-w-4xl lg:max-w-5xl xl:max-w-7xl flex items-center justify-between px-4 py-2">
         <div className="block sm:hidden">
           <button>
-            <CgMenuLeft className="w-6 h-6" />
+            <CgMenuLeft className="w-6 h-6 text-blue-logo" />
           </button>
         </div>
         <div>
@@ -28,19 +28,25 @@ const Header: React.FC = () => {
           </div>
         </div>
         <nav className="hidden sm:block">
-          <ul className="flex items-center text-base lg:text-lg space-x-10">
+          <ul className="flex items-center text-sm lg:text-base space-x-10">
             <li>
-              <a href="#" className="font-semibold">
+              <a href="#" className="font-medium text-blue-logo">
                 Home
               </a>
             </li>
             <li>
-              <a href="#" className="font-semibold">
+              <a
+                href="#"
+                className="font-medium hover:text-blue-logo transition ease-in-out duration-150"
+              >
                 Location
               </a>
             </li>
             <li>
-              <a href="#" className="font-semibold">
+              <a
+                href="#"
+                className="font-medium hover:text-blue-logo transition ease-in-out duration-150"
+              >
                 Price
               </a>
             </li>
@@ -48,11 +54,11 @@ const Header: React.FC = () => {
         </nav>
         <div>
           <button
-            className="text-sm sm:text-lg font-semibold py-1 px-4 md:px-6 rounded-full border-2 border-blue-600
-           bg-transparent text-blue-600 hover:bg-blue-600 hover:text-white
+            className="text-sm sm:text-base font-semibold py-1 px-4 md:px-6 rounded-full border-2 border-blue-logo
+           bg-transparent text-blue-logo hover:bg-blue-logo hover:text-white
            transition ease-in-out duration-150"
           >
-            Contact US
+            Contact Us
           </button>
         </div>
       </div>

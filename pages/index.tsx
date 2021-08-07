@@ -11,9 +11,9 @@ const Index: NextPage = () => {
       <Header />
       <main>
         <Carousel {...settings}>
-          <Slide background="bg-black">1</Slide>
-          <Slide background="bg-black">2</Slide>
-          <Slide background="bg-black">3</Slide>
+          <Slide background="bg-blue-300">1</Slide>
+          <Slide background="bg-indigo-300">2</Slide>
+          <Slide background="bg-pink-300">3</Slide>
         </Carousel>
       </main>
     </Layout>
