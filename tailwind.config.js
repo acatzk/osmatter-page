@@ -12,9 +12,15 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    container: {
+      center: true,
+    },
     extend: {
       fontFamily: {
         sans: ["-apple-system", ...defaultTheme.fontFamily.sans],
+      },
+      colors: {
+        'blue-logo': '#0078D7'
       }
     },
   },

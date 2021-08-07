@@ -5,7 +5,7 @@ class Document extends NextDocument {
     return (
       <Html>
         <Head>
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="/windows.ico" />
           <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         </Head>
         <body>
