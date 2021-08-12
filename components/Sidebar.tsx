@@ -20,9 +20,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, setIsOpen }) => {
         <div className="flex items-center justify-between py-10 mx-10">
           <div className="flex items-center space-x-3 flex-shrink-0">
             <GrWindows className="w-6 h-6 text-blue-logo" />
-            <span className="text-base font-medium text-blue-logo">
-              OS Installation
-            </span>
+            <span className="text-base font-medium text-blue-logo">OS Installation</span>
           </div>
           <button
             onClick={() => setIsOpen(false)}
@@ -61,10 +59,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, setIsOpen }) => {
         </nav>
       </div>
       {isOpen && (
-        <div
-          onClick={() => setIsOpen(false)}
-          className="fixed inset-0 z-0 cursor-default"
-        ></div>
+        <div onClick={() => setIsOpen(false)} className="fixed inset-0 z-0 cursor-default"></div>
       )}
     </aside>
   )

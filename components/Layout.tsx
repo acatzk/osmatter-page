@@ -11,9 +11,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       <Head>
         <title>Windows OS Format and Installation</title>
       </Head>
-      <div className="antialiased text-gray-900 bg-white min-h-screen">
-        {children}
-      </div>
+      <div className="antialiased text-gray-900 bg-white min-h-screen">{children}</div>
     </React.Fragment>
   )
 }
